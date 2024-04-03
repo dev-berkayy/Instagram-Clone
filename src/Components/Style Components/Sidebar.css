@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 335px;
+    height: 100vh;
+    border-right: 1px solid #dbdbdb;
+}
+
+body {
+    display: flex;
+}

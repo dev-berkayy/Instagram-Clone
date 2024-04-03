@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.iconbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.links {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.instagram {
+    margin-top: 20px;
+    font-size: 25px;
+    margin-left: 13px;
+    font-family: 'Instagram Sans', sans-serif;
+}
+
+.instagram:hover {
+    background-color: white;
+}
+
+.home {
+    font-size: 18px;
+    padding-bottom: 1px;
+}
+
+.homeicon {
+    font-size: 30px;
+    color: black;
+    padding-bottom: 1px;
+}
+
+.Exploreicon {
+    font-size: 24px;
+    padding-bottom: 1px;
+}
+
+.explore {
+    gap: 17px;
+    font-size: 17px;
+}
+
+.reels {
+    font-size: 18px;
+    padding-bottom: 1px;
+}
+
+.reelsicon {
+    font-size: 26px;
+}
+
+.messages {
+    font-size: 17px;
+    padding-bottom: 1px;
+}
+
+.messagesicon {
+    font-size: 25px;
+}
+
+.profile {
+    font-size: 26px;
+    padding-bottom: 1px;
+}
+
+a {
+    gap: 14px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    height: 48px;
+    width: 93%;
+    padding-left: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+
+.aclass {
+    display: none;
+}
+
+.aclassvisible {
+    display: block;
+}
+
+.updatebutton {
+    width: 55px;
+    padding-left: 13px;
+    margin-right: 249px;
+}
+
+
+
+
+
+a:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+.burgerbutton {
+    width: 92%;
+    border: none;
+    display: flex;
+    background-color: white;
+    padding-left: 15px;
+    margin: auto;
+    align-items: center;
+    gap: 12px;
+    font-size: 17px;
+    margin-top: 310px;
+    height: 50px;
+    border-radius: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.burgerbutton:hover {
+    background-color: rgb(237, 237, 237);
+}
+
+.burgericon {
+    font-size: 30px;
+}
+
+
+
+/*  buttonlar , açılır openbar*/
+/*  buttonlar , açılır openbar*/
+/*  buttonlar , açılır openbar*/
+
+
+
+
+.search {
+    cursor: pointer;
+    gap: 10px;
+    font-size: 17px;
+    height: 45px;
+    width: 93%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+}
+
+.search2 {
+    font-size: 30px;
+}
+
+.search:hover {
+    background-color: rgb(231, 231, 231);
+}
+
+.notifactions {
+    gap: 16px;
+    font-size: 18px;
+    height: 45px;
+    width: 93%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding-left: 18px;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.notifactionsicon {
+    font-size: 21px;
+}
+
+
+.notifactions:hover {
+    background-color: rgb(231, 231, 231);
+}
+
+.openbar {
+    width: 400px;
+    height: 100vh;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 75px;
+
+}
+
+.visible {
+    display: none;
+}
+
+.black {
+    color: red;
+    background-color: red;
+}

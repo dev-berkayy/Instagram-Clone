@@ -1,0 +1,152 @@
+.Sidebar {
+   width: 335px;
+   z-index: 99;
+}
+
+.Sidebar .Inner {
+   height: 100vh;
+   width: inherit;
+   position: relative;
+   transition: 0.3s;
+   background-color: #fff;
+   border-right: 1px solid #dbdbdb;
+   padding-top: 14px;
+}
+
+.Sidebar a {
+   color: inherit;
+}
+
+.PageList {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   padding: 20px 10px;
+   gap: 30px;
+}
+
+.Logo {
+   padding-bottom: 0;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   border-radius: 6px;
+   transition: 0.3s;
+
+   & > a {
+      display: flex;
+      align-items: center;
+      position: relative;
+      width: inherit;
+      height: inherit;
+      padding: 12px;
+
+      & > .First {
+         position: absolute;
+         transition: 0.3s;
+         opacity: 0;
+         transform: scale(0.5) translateY(2px);
+      }
+      & > .Second {
+         transition: 0.3s;
+         transform: translateY(2px);
+      }
+   }
+}
+
+.Lists {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.Lists a,
+.Lists button,
+.HamburgerMenu {
+   background-color: transparent;
+   border: none;
+   display: flex;
+   align-items: center;
+   font-size: inherit;
+   text-decoration: none;
+   gap: 10px;
+   width: 100%;
+   cursor: pointer;
+   padding: 12px;
+   border-radius: 6px;
+   user-select: none;
+   height: 50px;
+   transition: 0.3s;
+
+   & > svg {
+      min-width: 26px;
+      width: 26px;
+      aspect-ratio: 1;
+      transition: 0.15s;
+   }
+
+   & > img {
+      width: 26px;
+      aspect-ratio: 1;
+      border-radius: 50%;
+   }
+
+   &:hover {
+      background-color: #f2f2f2;
+
+      & > svg {
+         transform: scale(1.08);
+      }
+   }
+}
+
+.Menu {
+   width: 400px;
+   height: inherit;
+   position: absolute;
+   inset: 0;
+   border-right: 1px solid #dbdbdb;
+   border-radius: 0 16px 16px 0;
+   background-color: #fff;
+   z-index: -1;
+   left: 70px;
+   transform: translateX(-100%);
+   transition: 0.3s ease-in-out;
+   box-shadow: 10px 0px 15px -8px rgba(0, 0, 0, 0.15);
+}
+
+.Sidebar.Active .Lists a,
+.Sidebar.Active .Lists button,
+.Sidebar.Active .HamburgerMenu {
+   width: 50px;
+   height: 50px;
+
+   & > p {
+      display: none;
+   }
+}
+
+.Sidebar.Active .Inner {
+   width: 70px;
+}
+.Sidebar.Active .Menu {
+   transform: translateX(0);
+}
+
+.Sidebar.Active .Logo {
+   display: flex;
+
+   .First {
+      opacity: 1;
+      transform: scale(1) translateY(2px);
+   }
+
+   .Second {
+      opacity: 0;
+   }
+
+   &:hover {
+      background-color: #f2f2f2;
+   }
+}

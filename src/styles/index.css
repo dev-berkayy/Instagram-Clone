@@ -1,0 +1,8 @@
+@import url("./reset.css");
+@import url("./icon.css");
+
+.sidebar {
+   width: 335px;
+   height: 100vh;
+   border-right: 1px solid #dbdbdb;
+}

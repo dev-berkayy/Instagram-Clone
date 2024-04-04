@@ -1,11 +1,9 @@
-import React from 'react'
-
 function Home() {
-    return (
-        <div>
-            <h1>berkay</h1>
-        </div>
-    )
+   return (
+      <div>
+         <h1>berkay</h1>
+      </div>
+   );
 }
 
-export default Home
+export default Home;

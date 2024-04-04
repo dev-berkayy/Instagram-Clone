@@ -82,7 +82,7 @@ a {
     align-items: center;
     text-decoration: none;
     color: black;
-    height: 48px;
+    height: 49px;
     width: 93%;
     padding-left: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -100,12 +100,10 @@ a {
 
 .updatebutton {
     width: 55px;
+    height: 49px;
     padding-left: 13px;
     margin-right: 249px;
 }
-
-
-
 
 
 a:hover {
@@ -122,7 +120,7 @@ a:hover {
     align-items: center;
     gap: 12px;
     font-size: 17px;
-    margin-top: 310px;
+    margin-top: 290px;
     height: 50px;
     border-radius: 15px;
     transition: 0.2s;
@@ -198,18 +196,17 @@ a:hover {
 .openbar {
     width: 400px;
     height: 100vh;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     position: absolute;
     top: 0;
     left: 75px;
-
+    border-right: 1px solid rgb(222, 218, 218);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 10px 0 10px 1px rgb(224, 222, 222);
+    border-left: 1px solid rgb(235, 232, 232);
 }
 
 .visible {
     display: none;
-}
-
-.black {
-    color: red;
-    background-color: red;
 }

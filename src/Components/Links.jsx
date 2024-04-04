@@ -51,7 +51,7 @@ function Links() {
                 </div>
             </div>
 
-            <button className='burgerbutton'><RxHamburgerMenu className='burgericon' />More</button>
+            <button className='burgerbutton'><RxHamburgerMenu className='burgericon' /><p className={aChangeClass}>More</p></button>
 
 
             <div className={search}>berkay</div>

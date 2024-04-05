@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { MenuContext } from "../../../providers/MenuProvider";
+
 import {
    CreatePost,
    Explore,
@@ -14,9 +15,25 @@ import {
    TextLogo,
 } from "../../Icons";
 import styles from "./styles.module.css";
+import SearchContent from "./menuContent/SearchContent";
+import Notification from "./menuContent/Notification";
+
 
 function Sidebar() {
-   const { active, openMenu, closeMenu } = useContext(MenuContext);
+   const { active, state, openMenu, closeMenu } = useContext(MenuContext);
+
+   const MenuContent = () => {
+      switch (state) {
+         case "search":
+            return <SearchContent />;
+         case "notification":
+            return <Notification />;
+
+         default:
+            return "";
+      }
+   }
+
 
    const pages = [
       {
@@ -33,7 +50,7 @@ function Sidebar() {
          name: "Search",
          icon: <Search />,
          onclick: () => {
-            openMenu();
+            openMenu("search");
          },
       },
       {
@@ -68,7 +85,7 @@ function Sidebar() {
          name: "Notifactions",
          icon: <Heart />,
          onclick: () => {
-            openMenu();
+            openMenu("notification");
          },
       },
       {
@@ -140,7 +157,10 @@ function Sidebar() {
                </button>
             </div>
          </div>
-         <div className={styles.Menu}>berkay</div>
+         <div className={styles.Menu}>
+            <MenuContent />
+         </div>
+
       </div>
    );
 }

@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.notification-box {
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 20px;
+}
+
+.content3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px rgb(229, 228, 228) solid;
+    height: 160px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.notification-titles {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.notification-title {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.request {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    padding: 0 30px;
+    width: 100%;
+    position: relative;
+}
+
+.request-content {
+    display: flex;
+    gap: 12px;
+}
+
+.request button {
+    width: 30px;
+    font-size: 17px;
+    margin-top: 10px;
+    color: gray;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.request button::before {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    margin-left: -15px;
+    margin-top: 5px;
+    border-radius: 50%;
+    background-color: rgb(24, 159, 255);
+    content: "";
+}
+
+
+.request img {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.filterbutton {
+    color: rgb(0, 157, 255);
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.filterbutton:hover {
+    background-color: rgb(230, 229, 229);
+    color: black;
+
+}
+
+.content4 {
+    padding-bottom: 20px;
+
+}
+
+
+.content4-notification-box {
+    display: flex;
+    padding: 0 20px;
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.content4-notification-box:hover {
+    background-color: whitesmoke;
+}
+
+.left-img {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.description {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(77, 76, 76);
+}
+
+.square {
+    width: 70px;
+    height: 55px;
+    border-radius: 2px;
+}
+
+.this-week-title {
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+
+.following-button {
+    border: none;
+    font-weight: bold;
+    width: 120px;
+    margin-left: 20px;
+    border-radius: 10px;
+    height: 36px;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+
+.following-button:hover {
+    background-color: rgb(214, 214, 214);
+
+}

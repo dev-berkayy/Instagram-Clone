@@ -27,6 +27,16 @@ function SearchContent() {
                     </div>
 
 
+                    <div className='userdetail'>
+                        <img className='resim' src={resim1} />
+                        <p className='username'>berkay4yldrm <br /> <span>Berkay Yıldırım - following</span> </p>
+                        <button className='user-remove'><IoMdClose /></button>
+                    </div>
+                    <div className='userdetail'>
+                        <img className='resim' src={resim1} />
+                        <p className='username'>berkay4yldrm <br /> <span>Berkay Yıldırım - following</span> </p>
+                        <button className='user-remove'><IoMdClose /></button>
+                    </div>
 
                     <div className='userdetail'>
                         <img className='resim' src={resim1} />

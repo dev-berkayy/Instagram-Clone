@@ -1,12 +1,13 @@
 .Sidebar {
    width: 335px;
    z-index: 99;
+
 }
 
 .Sidebar .Inner {
    height: 100vh;
    width: inherit;
-   position: relative;
+   position: fixed;
    transition: 0.3s;
    background-color: #fff;
    border-right: 1px solid #dbdbdb;
@@ -104,9 +105,8 @@
 
 .Menu {
    width: 400px;
-   position: absolute;
+   position: fixed;
    inset: 0;
-   height: 100vh;
    background-color: rgb(255, 255, 255);
    border-right: 1px solid #dbdbdb;
    border-radius: 0 16px 16px 0;

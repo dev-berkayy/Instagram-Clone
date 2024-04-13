@@ -17,6 +17,7 @@ import {
 import styles from "./styles.module.css";
 import SearchContent from "./menuContent/SearchContent";
 import Notification from "./menuContent/Notification";
+import Message from "./menuContent/Message";
 
 
 function Sidebar() {
@@ -28,7 +29,8 @@ function Sidebar() {
             return <SearchContent />;
          case "notification":
             return <Notification />;
-
+         case "message":
+            return <Message />;
          default:
             return "";
       }
@@ -77,7 +79,7 @@ function Sidebar() {
          icon: <Messenger />,
          link: "/messages",
          onclick: () => {
-            closeMenu();
+            openMenu("message");
          },
       },
       {
@@ -93,7 +95,7 @@ function Sidebar() {
          name: "Create",
          icon: <CreatePost />,
          onclick: () => {
-            openMenu();
+
          },
       },
       {

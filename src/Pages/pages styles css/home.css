@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.profilecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-right: 80px;
+}
+
+.profile {
+    display: flex;
+    gap: 95px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.profile img {
+    border-radius: 50%;
+    height: 160px;
+}
+
+.buttonscontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-family: sans-serif;
+}
+
+.firstbuttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.firstbuttons button {
+    width: auto;
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(232, 229, 229);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.firstbuttons p {
+    font-size: 20px;
+}
+
+.setting {
+    cursor: pointer;
+    font-size: 23px;
+    margin-top: 3px;
+}
+
+.secondbuttons {
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+}
+
+.profile-descriptions {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+    gap: 2px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.profile-descriptions a {
+    font-size: 18px;
+    color: red;
+    margin-left: 2px;
+}
+
+.highlights {
+    margin-left: -300px;
+    display: flex;
+    gap: 45px;
+    margin-top: 70px;
+}
+
+.highlights div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 11px
+}
+
+.highlights img {
+    cursor: pointer;
+    border: 3px solid rgb(220, 216, 216);
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+}
+
+.portfolio-photos {
+    border-top: 1px solid rgb(217, 214, 214);
+    margin: auto;
+    display: flex;
+    width: 60%;
+    min-width: 500px;
+    justify-content: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.photosbuttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.photosbuttons button {
+    background-color: white;
+    width: auto;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.photosbox {
+    display: flex;
+    gap: 5px;
+    justify-content: flex-start;
+    padding-right: 150px;
+}
+
+.photosbox img {
+    width: 290px;
+}

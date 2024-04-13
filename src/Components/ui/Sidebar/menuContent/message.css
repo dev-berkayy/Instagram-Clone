@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.content5 {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.content5 p {
+    padding: 0 25px;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.messagetitle {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.messagetitle span {
+    color: rgb(79, 79, 79);
+    margin-top: 8px;
+}
+
+.content6 {
+    position: relative;
+    overflow-y: auto;
+    height: calc(100vh - 17vh)
+}
+
+.messagebox {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 15px;
+    padding-left: 20px;
+    transition: 0.2s;
+}
+
+
+.messagebox:hover {
+    background-color: rgb(237, 237, 237);
+}
+
+.messagebox img {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.messagebox p {
+    margin-top: 6px;
+    font-size: 15px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.messagebox p::before {
+    margin-left: 268px;
+    margin-top: 18px;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(31, 136, 255);
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+}
+
+
+.messagebox p span {
+    margin-top: 6px;
+    font-size: 13px;
+}

@@ -1,0 +1,482 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.videoboxs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+    gap: 20px;
+    position: relative;
+    margin-top: -10px;
+}
+
+.navbarreels {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+    font-weight: bolder;
+    border-bottom: 1px solid rgb(217, 217, 217);
+    height: 73px;
+    padding-bottom: -6px;
+    position: fixed;
+    padding-left: 50px;
+    left: 335px;
+    background-color: white;
+    z-index: 99;
+    top: 0;
+}
+
+.navbarreels p {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+    gap: 2px;
+}
+
+.navbarreels p span {
+    margin-left: 6px;
+    color: rgb(184, 184, 184);
+    font-size: 16px;
+}
+
+.videobox {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 100px;
+    height: 100vh;
+    background-color: transparent;
+}
+
+.videocontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: 0 -50px 50px 35px rgb(223, 226, 227);
+    height: 96%;
+}
+
+.videocontents {
+    display: flex;
+    position: absolute;
+    bottom: 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-left: -170px;
+}
+
+.cont {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.videocontents img {
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+}
+
+.videocontents p {
+    font-size: 17px;
+    color: white;
+    font-weight: bolder;
+}
+
+.videocontents p {
+    font-size: 17px;
+    color: white;
+    font-weight: bolder;
+}
+
+.videocontents button {
+    border: none;
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 0 1px;
+    height: 27px;
+    width: 65px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+video {
+    border-radius: 5px;
+    height: 784px;
+}
+
+.buttons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    margin-left: 550px;
+    gap: 25px;
+
+}
+
+.buttons button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    border: none;
+    font-size: 26px;
+    background-color: transparent;
+    transition: 0.2s;
+    position: relative;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    color: rgb(107, 98, 98);
+}
+
+.red {
+    color: red;
+}
+
+
+
+.buttons button p {
+    color: rgb(76, 76, 76);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.buttons button p:hover {
+    color: rgb(114, 114, 114);
+
+}
+
+.commentbox {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    top: 80px;
+    right: -85px;
+    position: absolute;
+    justify-content: center;
+    box-shadow: 0 0 40px 10px rgb(226, 224, 224);
+    border-radius: 5px;
+    background-color: white;
+}
+
+.commentboxvisible {
+    display: none;
+}
+
+.comment-content1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.comment-content1 button {
+    border: none;
+    background-color: transparent;
+    font-size: 26px;
+    color: rgb(46, 46, 46);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.comment-content1 button:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+h3 {
+    font-size: 17px;
+    margin-right: 100px;
+    margin-bottom: 2px;
+}
+
+.comment-content2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-self: start;
+    margin: auto;
+    gap: 10px;
+    width: 100%;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+.comment-content2 .for {
+    font-size: 13px;
+    margin-top: -20px;
+    color: gray;
+    cursor: pointer;
+    margin-bottom: 7px;
+}
+
+.arr {
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+.content7 {
+    overflow-y: auto;
+    height: 360px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contenter {
+    display: flex;
+    gap: 13px;
+}
+
+.img-input {
+    width: 94%;
+    border-radius: 20px;
+    display: flex;
+    border: 1px solid rgb(210, 204, 204);
+    padding-left: 3px;
+    margin-bottom: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.img-input .smile {
+    font-size: 22px;
+    align-self: self-start;
+    margin-left: 63px;
+    cursor: pointer;
+}
+
+.img-input .inputimgg {
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+}
+
+.img-input input {
+    height: 39px;
+    background-color: white;
+    font-size: 17px;
+    color: rgb(184, 184, 184);
+    font-size: 15px;
+}
+
+.comment-content2 p {
+    width: 80%;
+    line-height: -2px;
+    word-spacing: 1px;
+    font-size: 13px;
+    margin-top: 4px;
+    font-family: sans-serif;
+}
+
+.comment-content2 p span {
+    color: black;
+    margin-bottom: 5px;
+}
+
+.comment-content2 img {
+    width: 37px;
+    border-radius: 50%;
+    height: 37px;
+    cursor: pointer;
+}
+
+.video-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    position: static;
+    padding-top: 5px;
+    display: flex;
+    width: 96%;
+    margin-top: 2px;
+    justify-content: center;
+}
+
+.flex p {
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 11px;
+    padding-left: -20px;
+    color: rgb(80, 78, 78);
+}
+
+.videoplaybutton {
+    position: absolute;
+    border: none;
+    align-self: center;
+    background-color: transparent;
+    height: 700px;
+    width: 400px;
+}
+
+.playbuton {
+    font-size: 120px;
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.playbuton:hover {
+    transition: 0.2s;
+    font-size: 105px;
+    color: rgb(255, 255, 255);
+}
+
+.playbuttonvisible {
+    height: 750px;
+    width: 430px;
+    position: absolute;
+    color: transparent; 
+    opacity: 0;
+}
+
+
+.threedotbutton {
+    display: block;
+    width: 340px;
+    position: absolute;
+    right: -76px;
+    margin-bottom: 216px;
+    box-shadow: 0 0 10px 10px whitesmoke;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.threedotbuttonvisible {
+    display: none;
+}
+
+.content8 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    border-bottom: 1px solid rgb(216, 213, 213);
+}
+
+
+.content8 button {
+    border: none;
+    font-size: 30px;
+    background-color: transparent;
+    color: rgb(26, 25, 25);
+    margin-top: 7px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.content8 button:hover {
+    color: rgb(104, 103, 103);
+}
+
+
+.content8 p {
+    font-weight: bolder;
+    align-items: self-start;
+    margin-right: 125px;
+    font-size: 18px;
+
+}
+
+.content9 {
+    display: flex;
+    gap: 5px;
+    height: 500px;
+    padding-top: 30px;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: auto;
+
+}
+
+.content9 img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.content9 p {
+    font-size: 15px;
+    margin-bottom: -10px;
+}
+
+.content9 p span {
+    font-size: 12px;
+    color: rgb(62, 59, 59);
+    padding-top: -12px;
+}
+
+.content9 input {
+    border-radius: 20px;
+    margin-left: 95px;
+    border: none;
+    width: 22px;
+    margin-top: 2px;
+    cursor: pointer;
+
+}
+
+.flexdireciton {
+    display: flex;
+    gap: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.2s;
+    padding-top: 5px;
+}
+
+.flexdireciton:hover {
+    background-color: rgb(225, 225, 225);
+}
+
+.bluebutton {
+    display: flex;
+    justify-content: center;
+    height: 65px;
+    align-items: center;
+    border-top: 1px solid rgb(229, 221, 221);
+
+}
+
+.blue-send-button {
+    cursor: pointer;
+    width: 76%;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    color: whitesmoke;
+    background-color: lightskyblue;
+    border-radius: 10px;
+
+}

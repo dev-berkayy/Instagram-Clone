@@ -65,8 +65,10 @@ function Messages() {
             </div>
          </div>
          <div className='inputbox3'>
-            <input type="text" placeholder='😊 Message...' />
-            <p className='inputboxemoji'><FiMic /> <AiOutlinePicture /> <LuHeart /></p>
+            <div className='kapsayıcı'>
+               <input type="text" placeholder='😊 Message...' />
+               <p className='inputboxemoji'><FiMic /> <AiOutlinePicture /> <LuHeart /></p>
+            </div>
          </div>
 
       </div>

@@ -1,0 +1,36 @@
+#root {
+    height: 100%;
+}
+
+
+body {
+
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 660px;
+    margin-left: 120px;
+    padding-right: 220px;
+}
+
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: red;
+    border-radius: 50%;
+    align-self: center;
+}

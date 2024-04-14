@@ -1,5 +1,5 @@
 import React from 'react'
-import "./pages styles css/home.css"
+import "./pages styles css/Profile.css"
 import resim4 from "../Components/ui/Sidebar/menuContent/resim1.jpg"
 import { FiSettings } from "react-icons/fi";
 import { TiThSmallOutline } from "react-icons/ti"

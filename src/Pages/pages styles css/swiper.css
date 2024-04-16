@@ -13,13 +13,17 @@ body {
 }
 
 .swiper {
-    background-color: rebeccapurple;
+    
     display: flex;
     justify-content: center;
-    height: 100px;
-    width: 660px;
-    margin-left: 120px;
-    padding-right: 220px;
+    width: 620px;
+    gap: 10px;
+}
+
+
+.swipercontainer {
+    padding-top: 25px;
+border-top: 1px solid rgb(200, 196, 196);
 }
 
 
@@ -29,8 +33,65 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70px;
-    background-color: red;
     border-radius: 50%;
     align-self: center;
 }
+
+
+.swiper-slide div{
+    border-radius: 50%;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  background-color: white;
+  display: flex;
+  font-weight: bolder;
+  font-size: 8px;
+  gap: 10px;
+  justify-content: center   ;
+  align-items: center;
+  padding: 1px;
+  border:  1px solid radial-gradient(circle, rgba(131,58,180,1) 0%, rgb(212, 70, 255) 50%, rgba(252,176,69,1) 100%);;
+}
+
+.swiper-slide div img{
+    border-radius: 50%;
+    padding: 2px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,58,29,0.9725140056022409) 50%, rgba(252,176,69,1) 100%);
+     width: 100%;
+     height: 100%;
+}
+
+div.swiper-button-next::after {
+    color: rgb(149, 144, 144);
+    background-color: aliceblue;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 26px;
+    height: 26px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+div.swiper-button-prev::after {
+    color: rgb(149, 144, 144);
+    background-color: aliceblue;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 26px;
+    height: 26px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+
+

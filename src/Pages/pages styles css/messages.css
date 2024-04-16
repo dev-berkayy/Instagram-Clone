@@ -115,16 +115,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 195px;
-    margin-bottom: 15px;
+    margin-left: 215px;
     border-radius: 25px;
-    padding-right: 35px;
-    margin-right: 15px;
+    padding-right: 15px;
     height: 80px;
-    position: fixed;
+    position: sticky;
     background-color: white;
-    width: 76%;
-    bottom: -15px;
+    bottom: 0;
 }
 
 .kapsayıcı {

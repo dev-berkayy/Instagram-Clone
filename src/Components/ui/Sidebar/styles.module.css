@@ -6,7 +6,7 @@
 
 .Sidebar .Inner {
    height: 100vh;
-   width: inherit;
+   width: 335px;
    position: fixed;
    transition: 0.3s;
    background-color: #fff;
@@ -152,3 +152,14 @@
       background-color: #f2f2f2;
    }
 }
+
+@media screen and (max-height:720px) {
+   .Sidebar .Inner {
+      width: 240px;
+   }
+
+   
+}
+
+
+

@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { Virtual, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import resim1 from "./photos/resim1.jpg"
 
 // Import Swiper styles
 import 'swiper/css';
@@ -40,19 +41,23 @@ export default function MySwiper() {
             <Swiper
                 modules={[Virtual, Navigation, Pagination]}
                 onSwiper={setSwiperRef}
-                slidesPerView={5}
-                centeredSlides={true}
-                spaceBetween={10}
+                slidesPerView={8}
+                
+                spaceBetween={0}
                 pagination={{
                     type: 'fraction',
                 }}
+                initialSlide={1}
                 navigation={true}
                 virtual
             >
                 {slides.map((slideContent, index) => (
 
                     <SwiperSlide key={slideContent} virtualIndex={index}>
-                        {slideContent}
+                       <div> 
+                        <img src={resim1} alt="" />
+                        berkay4yldrm
+                        </div>  
                     </SwiperSlide>
 
                 ))}

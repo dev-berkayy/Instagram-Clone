@@ -30,7 +30,6 @@
     padding-left: 50px;
     left: 335px;
     background-color: white;
-    z-index: 99;
     top: 0;
 }
 
@@ -63,7 +62,7 @@
     align-items: center;
     background-color: transparent;
     box-shadow: 0 -50px 50px 35px rgb(223, 226, 227);
-    height: 96%;
+    height: 100%;
 }
 
 .videocontents {
@@ -480,3 +479,4 @@ h3 {
     border-radius: 10px;
 
 }
+

@@ -10,7 +10,7 @@ export default function Explore() {
          <div className='box'>
             <img src={resim1} alt="" />
          </div>
-
+ 
          <div className='box'>
             <img src={resim1} alt="" />
          </div>

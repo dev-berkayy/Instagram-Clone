@@ -20,6 +20,7 @@ function Reels1({ classId }) {
     const [HeartClass, setHeartClass] = useState("")
     const [PlayButtonClass, setPlayButtonClass] = useState("videoplaybutton")
     const [sendReelsButton, setSendReelsButton] = useState("threedotbuttonvisible")
+    const [Click2, setClick2] = useState(false)
 
     const playvideo = () => {
         const videos = document.querySelector(`.${classId}`)
@@ -63,7 +64,7 @@ function Reels1({ classId }) {
     }
 
     const CloseSend = () => {
-        if (isClick) {
+        if (!Click2) {
             setSendReelsButton("threedotbuttonvisible")
         }
     }

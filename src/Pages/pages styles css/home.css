@@ -138,7 +138,7 @@ height: 110%;
 
 .homepostdescription {
     width: 80%;
-    margin-top: -35px;
+    margin-top: -20px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -296,7 +296,217 @@ height: 110%;
  cursor: pointer;
 }
 
+.postcommentboxs {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.7);
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+   padding-top: 40px;
+}
+
+.postcommentboxsvisible {
+display: none;
+}
+
+.postcommentboxs button{
+    position: absolute;
+    font-size: 32px;
+    right: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    top: 20px;
+    color: white;
+}
+
+.maincomment {
+    width: 72%;
+    height: 95%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+     margin: auto;
+}
 
 
+.content10  {
+    background-color: red;
+    width: 60%;
+}
 
- 
+.content10 img{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+
+.content11 {
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+}
+
+
+.contenter1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgb(236, 230, 230);
+}
+
+.commentboxtop {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.commentboxtop p{
+   margin-top: 10px;
+   font-weight: 400;
+} 
+.contenter1 img{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,58,29,0.9725140056022409) 50%, rgba(252,176,69,1) 100%);
+    padding: 2px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.contenter2 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px;
+    gap: 20px;
+    overflow: auto;
+    position: relative;
+}
+
+
+.comment {
+    display: flex;   
+    justify-content: space-between;
+    gap: 20px;
+    position: relative;
+}
+
+.commentprofile {
+    display: flex;
+    gap: 10px;
+}
+.commentprofile img{
+width: 35px;
+cursor: pointer;
+height: 35px;
+border-radius: 45px;
+}
+
+.commentprofile p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+    
+}
+
+.commentprofile div  {
+    color: rebeccapurple;
+    font-size: 12px;
+    margin-left: 46px;
+}
+
+.commentprofile div  p{
+    color: rgb(160, 158, 163);
+    font-size: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.comentbox {
+    display: flex;
+   bottom: 33px;
+   height: 60px;
+   background-color: rgb(255, 255, 255);
+    position: fixed;        
+    width: 26%;
+}   
+
+.sendopenboxs {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0,0.7);
+  left: 0;
+  top: 0;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+    
+}
+.sendopenboxsvisible {
+    display: none;
+}
+
+.sendcontainer {
+width: 37%;
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+.content13 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid rgb(213, 206, 206);
+}
+
+.content13 p{
+    font-size: 20px;
+    margin: auto;
+}
+.content13 button {
+    background-color: white;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.content14 {
+    display: flex;
+    flex-direction: column;
+
+}
+.content14 input{
+    color: black;
+  background-color: white;
+  border-bottom: 1px solid rgb(213, 206, 206);
+  border-radius: 0px;
+}
+
+.sendusers {
+    display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 400px;
+}
+.sendusersleftcontent  {
+display: flex;
+gap: 10px;
+}
+.sendusersleftcontent img {
+    width: 45px;
+    cursor: pointer;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.sendusers div {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 8px;
+}

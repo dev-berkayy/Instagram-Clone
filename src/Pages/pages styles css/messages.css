@@ -147,3 +147,28 @@
     display: flex;
     gap: 15px;
 }
+
+@media screen and (max-width:1160px) {
+
+    .navbar {
+        padding-left: 40px;
+    }
+
+    .chatboxs {
+        padding-left: 30px;
+    }
+
+    .inputbox3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15px;
+        border-radius: 25px;
+        padding-right: 15px;
+        height: 80px;
+        position: sticky;
+        background-color: white;
+        bottom: 45px;
+    }
+
+}

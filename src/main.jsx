@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Sidebar from "./Components/ui/Sidebar/index.jsx";
 import { Explore, Home, Messages, Profile, Reels } from "./Pages";
 import MenuProvider from "./providers/MenuProvider.jsx";
+import SecondMenu from "./Components/ui/Sidebar/menuContent/SecondMenu.jsx";
 import "./styles/index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -10,6 +11,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <MenuProvider>
          <BrowserRouter>
             <Sidebar />
+            <SecondMenu />
             <Routes>
                <Route index element={<Home />} />
                <Route path='reels' element={<Reels />} />

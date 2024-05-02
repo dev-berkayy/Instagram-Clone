@@ -13,7 +13,7 @@ body {
 }
 
 .swiper {
-    
+
     display: flex;
     justify-content: center;
     width: 620px;
@@ -23,7 +23,7 @@ body {
 
 .swipercontainer {
     padding-top: 25px;
-border-top: 1px solid rgb(200, 196, 196);
+    border-top: 1px solid rgb(200, 196, 196);
 }
 
 
@@ -38,29 +38,30 @@ border-top: 1px solid rgb(200, 196, 196);
 }
 
 
-.swiper-slide div{
+.swiper-slide div {
     border-radius: 50%;
-  width: 60px;
-  display: flex;
-  flex-direction: column;
-  height: 80px;
-  background-color: white;
-  display: flex;
-  font-weight: bolder;
-  font-size: 8px;
-  gap: 10px;
-  justify-content: center   ;
-  align-items: center;
-  padding: 1px;
-  border:  1px solid radial-gradient(circle, rgba(131,58,180,1) 0%, rgb(212, 70, 255) 50%, rgba(252,176,69,1) 100%);;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    font-weight: bolder;
+    font-size: 8px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    border: 1px solid radial-gradient(circle, rgba(131, 58, 180, 1) 0%, rgb(212, 70, 255) 50%, rgba(252, 176, 69, 1) 100%);
+    ;
 }
 
-.swiper-slide div img{
+.swiper-slide div img {
     border-radius: 50%;
     padding: 2px;
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,58,29,0.9725140056022409) 50%, rgba(252,176,69,1) 100%);
-     width: 100%;
-     height: 100%;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 58, 29, 0.9725140056022409) 50%, rgba(252, 176, 69, 1) 100%);
+    width: 100%;
+    height: 100%;
 }
 
 div.swiper-button-next::after {
@@ -93,5 +94,14 @@ div.swiper-button-prev::after {
     font-size: 14px;
 }
 
+@media screen and (max-width:670px) {
+    .swiper {
+        width: 500px;
+    }
+}
 
-
+@media screen and (max-width:580px) {
+    .swiper {
+        width: 460px;
+    }
+}

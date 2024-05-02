@@ -144,3 +144,9 @@ span {
 .user-remove:hover {
     color: rgb(84, 84, 84);
 }
+
+@media screen and (max-width:1230px) {
+    .section {
+        display: none;
+    }
+}

@@ -109,7 +109,7 @@
     margin: auto;
     display: flex;
     width: 60%;
-    min-width: 500px;
+    min-width: 450px;
     justify-content: center;
     margin-top: 50px;
     padding-top: 20px;
@@ -145,4 +145,112 @@
 
 .photosbox img {
     width: 290px;
+}
+
+@media screen and (max-width:1157px) {
+
+    .profilecontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 65px;
+    }
+
+    .highlights {
+        margin-left: -100px;
+        display: flex;
+        gap: 45px;
+        margin-top: 70px;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+
+    .profile {
+        display: flex;
+        gap: 45px;
+        margin-top: 40px;
+    }
+
+    .profile img {
+        border-radius: 50%;
+        height: 120px;
+        margin-right: -10px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+    .profile {
+        display: flex;
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+    .profile img {
+        border-radius: 50%;
+        height: 120px;
+        margin-right: -10px;
+    }
+
+    .buttonscontainer {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        font-family: sans-serif;
+    }
+
+    .firstbuttons {
+        display: flex;
+        gap: 10px;
+        margin-top: 5px;
+    }
+
+    .firstbuttons p {
+        font-size: 11px;
+    }
+
+    .firstbuttons button {
+        width: auto;
+        font-size: 10px;
+        border: none;
+        border-radius: 7px;
+        background-color: rgb(232, 229, 229);
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .firstbuttons p {
+        font-size: 20px;
+    }
+
+    .secondbuttons {
+        font-size: 17px;
+        gap: 15px;
+    }
+
+    .setting {
+        cursor: pointer;
+        font-size: 20px;
+        margin-top: 3px;
+    }
+
+    .highlights {
+        margin-left: -230px;
+        display: flex;
+        gap: 10px;
+        margin-top: 70px;
+    }
+
+    .highlights img {
+
+        width: 65px;
+        height: 65px;
+    }
+
 }

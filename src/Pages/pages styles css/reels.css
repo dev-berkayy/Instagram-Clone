@@ -51,7 +51,6 @@
     flex-direction: column;
     gap: 30px;
     margin-top: 100px;
-
     background-color: transparent;
 }
 
@@ -94,11 +93,6 @@
     font-weight: bolder;
 }
 
-.videocontents p {
-    font-size: 17px;
-    color: white;
-    font-weight: bolder;
-}
 
 .videocontents button {
     border: none;
@@ -111,6 +105,12 @@
     background-color: transparent;
     border: 1px solid white;
     border-radius: 5px;
+}
+
+.videeodescription {
+    color: rebeccapurple;
+    font-size: 20px;
+    margin-left: 100px;
 }
 
 video {
@@ -351,7 +351,7 @@ h3 {
     height: 750px;
     width: 430px;
     position: absolute;
-    color: transparent; 
+    color: transparent;
     opacity: 0;
 }
 
@@ -360,7 +360,7 @@ h3 {
     display: block;
     width: 340px;
     position: absolute;
-    right: -76px; 
+    right: -76px;
     margin-bottom: 116px;
     box-shadow: 0 0 6px 6px whitesmoke;
     border-radius: 5px;
@@ -379,6 +379,7 @@ h3 {
     padding: 0 20px;
     height: 60px;
     border-bottom: 1px solid rgb(216, 213, 213);
+
 }
 
 
@@ -413,7 +414,7 @@ h3 {
     justify-content: center;
     flex-direction: column;
     overflow-y: auto;
-    
+
 }
 
 .content9 img {
@@ -479,3 +480,122 @@ h3 {
 
 }
 
+
+@media screen and (max-width:1157px) {
+
+    .navbarreels {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+
+
+    .commentbox {
+        width: 340px;
+        right: -75px;
+        position: absolute;
+    }
+
+    .threedotbutton {
+        display: block;
+        width: 340px;
+        position: absolute;
+        right: -46px;
+        margin-bottom: 116px;
+        box-shadow: 0 0 6px 6px whitesmoke;
+        border-radius: 5px;
+        background-color: white;
+    }
+}
+
+@media screen and (max-width:860px) {
+
+
+    .commentbox {
+        width: 340px;
+        right: 5px;
+        position: absolute;
+    }
+
+    .threedotbutton {
+        display: block;
+        width: 340px;
+        position: absolute;
+        right: 6px;
+        margin-bottom: 116px;
+        box-shadow: 0 0 6px 6px whitesmoke;
+        border-radius: 5px;
+        background-color: white;
+    }
+}
+
+
+@media screen and (max-width:677px) {
+
+    video {
+        border-radius: 5px;
+        height: 584px;
+    }
+
+    .buttons {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        margin-top: 300px;
+        margin-left: 450px;
+        gap: 25px;
+    }
+
+    .videocontents {
+        margin-left: -130px;
+    }
+
+    .videocontents img {
+        margin-left: 50px;
+    }
+
+    .videocontents p {
+        font-size: 12px;
+        color: white;
+        font-weight: bolder;
+
+    }
+
+
+
+    .videocontents button {
+        border: none;
+        font-size: 20px;
+        font-size: 10px;
+        font-weight: bolder;
+        padding: 0 1px;
+        height: 27px;
+        width: 65px;
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+
+}
+
+@media screen and (max-width:607px) {
+
+    video {
+        border-radius: 5px;
+        height: 584px;
+    }
+
+    .buttons {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        margin-top: 300px;
+        margin-left: 400px;
+        gap: 25px;
+
+    }
+
+}

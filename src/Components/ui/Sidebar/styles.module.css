@@ -158,8 +158,17 @@
       width: 240px;
    }
 
-   
 }
 
+@media screen and (max-width:1227px) {
+   .Sidebar .Inner {
+      width: 170px;
+   }
+}
 
+@media screen and (max-width:1157px) {
+   .Sidebar {
+      display: none;
+   }
 
+}

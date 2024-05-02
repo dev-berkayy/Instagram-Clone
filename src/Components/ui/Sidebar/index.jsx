@@ -144,7 +144,7 @@ function Sidebar() {
                         return (
                            <Link key={index} to={page.link} onClick={page.onclick}>
                               <img
-                                 src={"https://github.com/fatihsen-dev.png"}
+                                 src={"https://avatars.githubusercontent.com/u/152439115?v=4"}
                                  alt={page.name}
                               />
                               <p>{page.name}</p>
@@ -161,6 +161,7 @@ function Sidebar() {
          </div>
          <div className={styles.Menu}>
             <MenuContent />
+
          </div>
 
       </div>

@@ -96,7 +96,7 @@ function Reels1({ classId }) {
                             <div className='cont'>  <img src={resim1} alt="" />
                                 <p>berkay4yldrm - <button>Follow</button> <br /></p> <br />
                             </div>
-                            <p style={{ marginLeft: "100px", fontSize: "15px" }}> Natural Life and Crazy pure sound 🔥🔥🔥</p>
+                            <p className='videeodescription'> Natural Life and Crazy pure sound 🔥🔥🔥</p>
 
                         </div>
                         <button onClick={playvideo} className={PlayButtonClass}> <IoPlayCircleOutline className='playbuton' /></button>

@@ -42,7 +42,7 @@ export default function MySwiper() {
                 modules={[Virtual, Navigation, Pagination]}
                 onSwiper={setSwiperRef}
                 slidesPerView={8}
-                
+
                 spaceBetween={0}
                 pagination={{
                     type: 'fraction',
@@ -54,10 +54,10 @@ export default function MySwiper() {
                 {slides.map((slideContent, index) => (
 
                     <SwiperSlide key={slideContent} virtualIndex={index}>
-                       <div> 
-                        <img src={resim1} alt="" />
-                        berkay4yldrm
-                        </div>  
+                        <div>
+                            <img src={resim1} alt="" />
+                            berkay4yldrm
+                        </div>
                     </SwiperSlide>
 
                 ))}

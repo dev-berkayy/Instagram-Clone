@@ -98,10 +98,18 @@ div.swiper-button-prev::after {
     .swiper {
         width: 500px;
     }
+
+    .swiper-slide div {
+        width: 50px;
+        height: 70px;
+        font-size: 8px;
+        gap: 10px;
+    }
 }
 
 @media screen and (max-width:580px) {
     .swiper {
         width: 460px;
     }
+
 }

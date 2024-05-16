@@ -5,7 +5,7 @@ import "./pages styles css/explore.css"
 
 
 export default function Explore() { 
-   return (
+   return ( 
       <div className='container'>
 
          <div className='box'>
